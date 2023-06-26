@@ -16,7 +16,7 @@ Python divides the operators in the following groups:
 #Arithematic Operators
 x=10
 y=20
-print()
+
 print("Arithematic Operators")
 #Addition
 print(f"Addition (+) of X ={x} and Y={y} is {x+y}")
@@ -32,7 +32,7 @@ print(f"Modulus (%) of X ={x} and Y={y} is {x%y}")
 print(f"Exponent (**) of X ={x} and Y={y} is {x**y}")
 #Floor Division
 print(f"Floor Division (//) of X ={x} and Y={y} is {x//y}")
-print()
+
 #Assignment operators
 print("Assignment operators")
 print(f"X = {x}")
@@ -50,9 +50,9 @@ x = x // 5
 print(f"x //= 5 = {x}")
 x = x ** 5	
 print(f"x *= 5 = {x}")
-print()
 
-print()
+
+
 #Comparison Operators
 print("Comparison Operators")
 #Equal to (==)
@@ -67,7 +67,7 @@ print(f"Less Than (<) of X = {x} and Y = {y} is {x<y}")
 print(f"Greater Than Eqaul to (>=) of X = {x} and Y = {y} is {x>=y}")
 # Less Than Equal to (<=)
 print(f"Less Than Equal to (<=) of X = {x} and Y = {y} is {x<=y}")
-print()
+
 
 #Logical Operator
 print("Logical Operator")
@@ -78,7 +78,7 @@ print(f"Or of X = {x} and Y = {y} is {x or y}")
 # not
 print(f"Not of X = {x} is {not x}")
 print(f"Not of Y = {y} is {not y}")
-print()
+
 
 #Identity Operator
 print("Identity Opertor")
@@ -90,7 +90,7 @@ print(f"b = {b}")
 print(f"Is will return true if both operands are same {a is b}")
 # is not
 print(f"Is Not will return true if both operands are not same {a is not b}")
-print()
+
 
 #Membership Operator
 print("Membership Opertor")
@@ -102,7 +102,7 @@ print("Python" in c)
 # not in
 print(f"Not In will return true if value passed is not present")
 print("SQL" in c)
-print()
+
 
 # Bitwise Operator
 x=10
