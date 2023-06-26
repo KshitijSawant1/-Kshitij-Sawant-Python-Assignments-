@@ -12,10 +12,12 @@ Python divides the operators in the following groups:
     Identity operators
     Membership operators
     Bitwise operators
-
+"""
 #Arithematic Operators
+x=10
+y=20
 print()
-print(Arithematic Operators)
+print("Arithematic Operators")
 #Addition
 print(f"Addition (+) of X ={x} and Y={y} is {x+y}")
 #subtraction
@@ -80,28 +82,28 @@ print()
 
 #Identity Operator
 print("Identity Opertor")
-x=["C++","Java","Python","React"]
-y=["C++","Java","Python","React"]
-print(f"X = {x}")
-print(f"Y = {y}")
+a=["C++","Java","Python","React"]
+b=["C++","Java","Python","React"]
+print(f"a = {a}")
+print(f"b = {b}")
 # is
-print(f"Is will return true if both operands are same {x is y}")
+print(f"Is will return true if both operands are same {a is b}")
 # is not
-print(f"Is Not will return true if both operands are not same {x is not y}")
+print(f"Is Not will return true if both operands are not same {a is not b}")
 print()
 
 #Membership Operator
 print("Membership Opertor")
-x=["C++","Java","Python","React"]
-print(f"X = {x}")
+c=["C++","Java","Python","React"]
+print(f"C = {c}")
 # in
 print(f"In will return true if value passed is present")
-print("Python" in x)
+print("Python" in c)
 # not in
 print(f"Not In will return true if value passed is not present")
-print("SQL" in x)
+print("SQL" in c)
 print()
-"""
+
 # Bitwise Operator
 x=10
 y=8
